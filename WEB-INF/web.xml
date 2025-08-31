@@ -6,12 +6,21 @@
         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
 
     <servlet>
+<<<<<<< HEAD
         <servlet-name>surveyServlet</servlet-name>
         <servlet-class>murach.survey.SurveyServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>surveyServlet</servlet-name>
         <url-pattern>/surveyServlet</url-pattern>
+=======
+        <servlet-name>EmailListServlet</servlet-name>
+        <servlet-class>murach.email.EmailListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmailListServlet</servlet-name>
+        <url-pattern>/emailList</url-pattern>
+>>>>>>> cd1a265accc3d37475d13771f7f4f2f7ff91955c
     </servlet-mapping>
 
     <session-config>
