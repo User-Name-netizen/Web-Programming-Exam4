@@ -3,27 +3,64 @@ body {
   font-size: 11pt;
   margin-left: 2em;
   margin-right: 2em;
+  background-color: #f0f0f0;
+  color: #333;
 }
+
 h1 {
-  color: teal;
+  color: #006666;
+  text-align: center;
+  background-color: #e0f0f0;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
 }
+
 h2 {
-  color: teal;
+  color: #006666;
+  font-size: 18px;
 }
+
 label {
   float: left;
   width: 6em;
   margin-bottom: 0.5em;
+  color: #444;
+  font-weight: bold;
+  font-size: 12pt;
 }
+span {
+  color: #000080;
+  font-size: 12pt;
+  font-style: italic;
+}
+
 input[type="text"],
 input[type="email"] {
   width: 15em;
   margin-left: 0.5em;
   margin-bottom: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.2em;
+  background-color: #fff;
 }
+
 br {
   clear: both;
 }
+
 #submit {
   margin-left: 0.5em;
+  background-color: #006666;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #004d4d;
 }
